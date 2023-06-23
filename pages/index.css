@@ -37,6 +37,13 @@ h1, h2, h3, h4, h5, h6 {
 	z-index: -1;
 }
 
+@media screen and (max-width: 740px) {
+	.hero {
+		position: absolute;
+		left: 1vw;
+		top: 7vh;
+	}
+}
 
 .main-header {
 	height: 100vh;
@@ -54,9 +61,24 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: .9;
 }
 
+@media screen and (max-width: 740px) {
+	.main-title {
+		top: 70vh;
+		line-height: .9;
+	}
+	
+}
+
 .gallery {
 	display: flex;
 	padding: calc(var(--index) * 8) 0;
+}
+
+@media screen and (max-width: 740px) {
+	.gallery {
+		flex-direction: column;
+		padding: calc(var(--index) * 4) 0;
+	}
 }
 
 .gallery > * {
@@ -71,6 +93,13 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: var(--gallery-gap);
 	max-height: 180vh;
 	border-radius: 10px;
+}
+
+@media screen and (max-width: 740px) {
+	.gallery__item {
+		max-width: calc(var(--index) * 28);
+		margin-bottom: calc(var(--gallery-gap) * 1.05);
+	}
 }
 
 .gallery__left {
