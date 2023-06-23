@@ -13,16 +13,6 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phon
 
     wrapper.style.overflow = 'hidden';
 
-    gsap.fromTo('.hero-section', { opacity: 1 }, {
-        opacity: 0,
-        scrollTrigger: {
-            trigger: '.hero-section',
-            start: 'center',
-            end: '700',
-            scrub: true
-        }
-    });
-
     let items = gsap.utils.toArray('.gallery__item');
     items.forEach(item => {
         gsap.fromTo(item, { x: -250, opacity: 0 }, {
