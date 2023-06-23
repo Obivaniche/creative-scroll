@@ -29,20 +29,17 @@ h1, h2, h3, h4, h5, h6 {
 	will-change: transform;
 }
 
+.hero-section {
+	height: 100vh;
+	padding: 0 7vh;
+}
+
 .hero {
 	width: calc(var(--index) * 36);
 	position: absolute;
 	left: 37vw;
 	top: 7vh;
 	z-index: -1;
-}
-
-.main-header {
-	height: 100vh;
-}
-
-.container {
-	padding: 0 7vh;
 }
 
 .main-title {
