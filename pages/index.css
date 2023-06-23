@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 768px) {
 
 	.hero {
-		top: 10vh;
+		top: 12vh;
 		left: 10vw;
 		width: 95vw;
 	}

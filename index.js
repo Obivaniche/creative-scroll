@@ -18,19 +18,20 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phon
         scrollTrigger: {
             trigger: '.hero-section',
             start: 'center',
-            end: '1000',
+            end: '700',
             scrub: true
         }
     });
 
     let items = gsap.utils.toArray('.gallery__item');
     items.forEach(item => {
-        gsap.fromTo(item, { opacity: 0 }, {
+        gsap.fromTo(item, { x: -250, opacity: 0 }, {
             opacity: 1,
+            x: 0,
             scrollTrigger: {
                 trigger: item,
                 start: '-800',
-                end: '-200',
+                end: '-400',
                 scrub: true
             }
         });
