@@ -1,0 +1,10 @@
+@font-face {
+	font-family: raleway-c;
+	src: url(../vendor/fonts/Raleway-VariableFont.ttf);
+	src: url(../vendor/fonts/raleway-regular.woff2);
+}
+@font-face {
+	font-family: outfit-c;
+	src: url(../vendor/fonts/Outfit-VariableFont.ttf);
+	src: url(../vendor/fonts/outfit-regular.woff2);
+}
