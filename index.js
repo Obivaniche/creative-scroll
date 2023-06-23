@@ -11,7 +11,7 @@ let wrapper = document.querySelector('.wrapper');
 
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
 
-    wrapper.style.overflow = 'hidden';
+    wrapper.style.overflowX = 'hidden';
 
     gsap.fromTo('.hero-section', { opacity: 1 }, {
         opacity: 0,
